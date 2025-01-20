@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645132edefd4c74968a0c941a98fb89, type: 3}
+  m_Name: Audio Database
+  m_EditorClassIdentifier: 
+  _items:
+  - Clip: {fileID: 8300000, guid: 7ee30b1733be7f142823cd282008c707, type: 3}
+    Key: Music
+    FolderPath: Audio\
+    Name: Phonk2.mp3
+    Preload: 1
+    _id: 54cd6780-7423-4b89-9d68-6b55495d223e
+  - Clip: {fileID: 8300000, guid: 9580878aea93ed24787d40931b4a4bc8, type: 3}
+    Key: xp
+    FolderPath: Audio\
+    Name: xp.mp3
+    Preload: 1
+    _id: e1e46312-e8b7-400a-bd8a-6e00efc4fb6c
