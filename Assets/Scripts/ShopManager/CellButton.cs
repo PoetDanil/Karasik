@@ -8,7 +8,7 @@ using UnityEngine.UI;
 using YG;
 
 [RequireComponent(typeof(Button))]
-public class CellButton : MonoBehaviour{
+public class CellButton : Sounds{
     [SerializeField] private float price = 1.0f;
     [SerializeField] private TypeOfProduct type;
     [SerializeField] private ShopManager shopManager;
@@ -46,7 +46,7 @@ public class CellButton : MonoBehaviour{
             
             foreach (var i in shopManager.fishes) 
                 if (i.type == type) i.isBought=true;
-
+            PlaySound(sounds[0], volume: 0.6f);          //is buy
             ShopManager.TypeOfFishes = type;
             ShopManager.SwitchFish?.Invoke();
             
@@ -59,13 +59,15 @@ public class CellButton : MonoBehaviour{
         
         isOn = !isOn;
         
-        if(isOn == false) {
+        if (isOn == false) {
             priceText.text = "Выключено";
             priceText.color = Color.red;
+            PlaySound(sounds[1], volume: 0.9f);          //is click
         }
         else {
             priceText.text = "Включено";
             priceText.color = Color.green;
+            PlaySound(sounds[1], volume: 0.9f);          //is click
         }
     }
 
