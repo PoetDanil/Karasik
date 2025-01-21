@@ -1,2 +1,2 @@
-Build path: C:/Users/user/Desktop/Games/test_builds/1
-Build number: 13
+Build path: C:/Users/Hozyin/Desktop/Карась погоня за прикормкой
+Build number: 15
