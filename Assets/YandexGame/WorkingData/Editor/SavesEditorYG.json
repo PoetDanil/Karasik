@@ -1,5 +1,5 @@
 {
-    "idSave": 460,
+    "idSave": 782,
     "isFirstSession": false,
     "language": "en",
     "promptDone": false,
@@ -10,7 +10,7 @@
         true,
         false
     ],
-    "points": 21748.0,
+    "points": 23140.0,
     "products": [
         {
             "type": 0,
@@ -26,6 +26,10 @@
         },
         {
             "type": 5,
+            "isBought": true
+        },
+        {
+            "type": 4,
             "isBought": true
         }
     ]
